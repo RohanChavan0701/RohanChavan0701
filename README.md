@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Rohan Chavan!
+# 👋 Hi, I'm Rohan Praveen Chavan!
 
 **AI Engineer | LLM Red Teamer | Cloud Builder | Virginia Tech Grad Student**
 
