@@ -1,72 +1,31 @@
-# 👋 Hi, I'm Rohan Praveen Chavan!
+# Rohan Chavan
 
-**AI Engineer | LLM Red Teamer | Cloud Builder | Virginia Tech Grad Student**
+AI/ML engineer building evaluation, safety, and agent systems for language models.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/rohan-chavan-708532200/)
-[![GitHub](https://img.shields.io/badge/GitHub-222?logo=github&style=flat-square)](https://github.com/RohanChavan0701)
-[![Email](https://img.shields.io/badge/Email-grey?logo=gmail&style=flat-square)](mailto:rohanchavan0701@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/rohan-chavan-708532200/) · [Email](mailto:rohanchavan0701@gmail.com)
 
----
+## Selected work
 
-🚀 **Welcome to my playground at the intersection of AI innovation, trustworthy machine learning, and cloud-native engineering.**
+### [Adaptive Safety Portfolio](https://github.com/rohanpc0701/adaptive-safety-portfolio)
 
-- 🧑‍💻 **Current:** MS in Computer Engineering @ Virginia Tech
-- 🤖 **Focus:** Safe & Robust AI, LLM Red Teaming, Prompt Engineering, Multi-modal ML
-- 🌎 **Mission:** Build AI that’s as reliable as it is intelligent—unlocking value while keeping safety and ethics front-and-center.
+An inference-time cascade that spends more compute on uncertain jailbreak classifications. On the committed JailbreakBench run, it reached 0.95 recall at 1,291 ms average latency and 31.1 proxy cost units, versus 0.93 recall, 2,583 ms, and 49.0 units for the always-all baseline; precision decreased from 0.82 to 0.74.
 
----
+`LLM safety` · `adaptive inference` · `evaluation` · `PyTorch`
 
-## 🚩 Featured Projects
+### [Chiron](https://github.com/rohanpc0701/Chiron)
 
-### 🔐 Amazon Nova AI Challenge
-*Red teaming & LLM safety pipelines for Amazon Foundation Models.*
-- Engineered a prompt-based attack taxonomy and built a real-time LLM Defender Bot for adversarial input detection.
-- Automated prompt severity classification with Claude, GPT-4, and DeepSeek.
-- Embedded responsible AI workflows with Amazon & Prof. Ruoxi Jia.
-> **Skills:** LLMs, Prompt Engineering, Bedrock, AI Alignment, Cybersecurity
+A runtime teacher-repair loop that detects student-model drift, verifies corrections, and adds them to prompt memory without changing model weights. The coding demo improved same-distribution accuracy from 0.273 to 0.455, while held-out experiments document that the gain often disappears.
 
----
+`teacher–student systems` · `drift detection` · `prompt memory` · `evaluation`
 
-### 💡 Sentimint (Agent Hacks Finalist)
-*Your AI-powered financial news & sentiment agent, built for real-time trading signals.*
-- Developed a LangChain-based AI agent that aggregates sentiment from financial news and social feeds.
-- Orchestrated LLM pipelines for actionable insights, with a slick UI powered by React and Orchids.
-> **Skills:** LangChain, LLMs, Fintech, Real-Time Data, Agent Design
+### [Housing Policy Advisor](https://github.com/rohanpc0701/housing-policy-advisor)
 
----
+Builds a local housing profile from public data, retrieves policy evidence when a Chroma collection is available, and generates validated structured recommendations. The pipeline degrades explicitly to generation without retrieval when evidence infrastructure is unavailable.
 
-### 🧠 Image Captioning & Vision (BLIP-2, YOLOv5)
-*Exploring multimodal AI for smart content generation and security.*
-- Fine-tuned BLIP-2 for image captioning on MS-COCO/Flickr30k.
-- Built object detection systems for automated baggage screening (YOLOv5, Faster R-CNN).
-> **Skills:** PyTorch, Computer Vision, Transformers, Data Annotation
+`Census + HUD + BLS · ChromaDB · Structured Generation · Grounding Validation`
 
----
+### [CareRoute Flight Agent](https://github.com/rohanpc0701/Codefest_Flightapi)
 
-### 🤖 Chatbots & NLP Automation @ Colgate-Palmolive
-*Deploying chatbots and NLP pipelines to automate business workflows (70%+ manual queries handled automatically).*
-- Integrated ChatGPT/BERT APIs and CI/CD for scalable, low-latency AI solutions.
+A standalone FastAPI component for provider-backed flight lookup and status checks, with an A2A JSON-RPC interface, voice integration, and Docker packaging. It was built as the flight-service contribution to the broader CareRoute multi-agent prototype.
 
----
-
-## 🛠️ Tech Stack
-
-`Python` | `PyTorch` | `TensorFlow` | `LangChain` | `Docker` | `AWS` | `React.js` | `MongoDB`  
-`NLP` | `Computer Vision` | `CI/CD` | `Terraform` | `Kubernetes` | `Prompt Engineering`
-
----
-
-## ⚡ Quick Links
-
-- [Resume](mailto:rohanchavan0701@gmail.com?subject=Resume%20Request%20from%20GitHub)
-- [Portfolio (Coming Soon!)](https://github.com/RohanChavan0701)
-- [LinkedIn](https://www.linkedin.com/in/rohan-chavan-708532200/)
-
----
-
-### 🌱 Let's connect!
-*I'm always up for collaborations on AI safety, LLM research, or cool hackathons. Open to feedback, ideas, and new challenges!*
-
----
-
-![Stats](https://github-readme-stats.vercel.app/api?username=RohanChavan0701&show_icons=true&hide=issues&theme=radical)
+`FastAPI` · `A2A JSON-RPC` · `external APIs` · `Docker`
