@@ -2,7 +2,7 @@
 
 AI/ML engineer building evaluation, safety, and agent systems for language models.
 
-[LinkedIn](https://www.linkedin.com/in/rohan-chavan-708532200/) · [Email](mailto:rohanchavan0701@gmail.com)
+[Portfolio](https://rohanchavan.vercel.app/) · [Resume](https://rohanchavan.vercel.app/Resume_Rohan_SWE_AI.pdf) · [LinkedIn](https://www.linkedin.com/in/rohanpraveenchavan) · [Email](mailto:rohanchavan0701@gmail.com)
 
 ## Selected work
 
