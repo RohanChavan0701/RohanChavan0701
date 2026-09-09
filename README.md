@@ -6,7 +6,7 @@ AI/ML engineer building evaluation, safety, and agent systems for language model
 
 ## Selected work
 
-### [Adaptive Safety Portfolio](https://github.com/RohanChavan0701/adaptive-safety-portfolio)
+### [Adaptive Safety Portfolio](https://github.com/RohanChavan0701/adaptive-safety)
 
 An inference-time cascade that spends more compute on uncertain jailbreak classifications. On the committed JailbreakBench run, it reached 0.95 recall at 1,291 ms average latency and 31.1 proxy cost units, versus 0.93 recall, 2,583 ms, and 49.0 units for the always-all baseline; precision decreased from 0.82 to 0.74.
 
