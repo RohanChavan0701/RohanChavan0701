@@ -24,7 +24,7 @@ Builds a local housing profile from public data, retrieves policy evidence when 
 
 `Census + HUD + BLS · ChromaDB · Structured Generation · Grounding Validation`
 
-### [CareRoute Flight Agent](https://github.com/RohanChavan0701/Codefest_Flightapi)
+### [CareRoute Flight Agent](https://github.com/RohanChavan0701/careroute-flight-agent)
 
 A standalone FastAPI component for provider-backed flight lookup and status checks, with an A2A JSON-RPC interface, voice integration, and Docker packaging. It was built as the flight-service contribution to the broader CareRoute multi-agent prototype.
 
