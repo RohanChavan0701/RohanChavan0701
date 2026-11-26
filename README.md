@@ -1,31 +1,23 @@
 # Rohan Chavan
 
-AI/ML engineer building evaluation, safety, and agent systems for language models.
+**AI engineer focused on agent evaluation, safety, and tool use.**
 
-[Portfolio](https://rohanchavan.vercel.app/) · [Resume](https://rohanchavan.vercel.app/Resume_Rohan_SWE_AI.pdf) · [LinkedIn](https://www.linkedin.com/in/rohanpraveenchavan) · [Email](mailto:rohanchavan0701@gmail.com)
+I build AI agents and test whether their reported improvements hold up. At Awesome Motive, I shipped analytics MCP tools across five clients, added human approval for actions that charge credits, and instrumented a LangGraph assistant with end-to-end tracing.
+
+San Francisco Bay Area · M.S. Computer Engineering, Virginia Tech
+
+[Portfolio](https://rohanchavan.vercel.app/) · [Resume](https://rohanchavan.vercel.app/Resume_Rohan_RE.pdf) · [LinkedIn](https://www.linkedin.com/in/rohanpraveenchavan) · [Email](mailto:rohanchavan0701@gmail.com)
 
 ## Selected work
 
-### [Adaptive Safety Portfolio](https://github.com/RohanChavan0701/adaptive-safety)
+- **[Chiron](https://github.com/RohanChavan0701/Chiron)** · I caught a SQL grader accepting wrong queries that matched on one database. In a follow-up on held-out Spider databases, the regularized proposer reached 58.4% and random edits reached 58.8%. Spider may be in the model's training data. [Experiment and controls](https://github.com/RohanChavan0701/Chiron/blob/main/rsi_pilot/README.md)
+- **[Selection Curse](https://github.com/RohanChavan0701/selection-curse)** · Choosing the best harness edit with true labels gave a 5.1-point gain on the selection set and 2.4 points on fresh FinQA tasks. [Committed analysis](https://github.com/RohanChavan0701/selection-curse/blob/main/runs_v7/analyze.json)
+- **[Adaptive Safety](https://github.com/RohanChavan0701/adaptive-safety)** · I cut average JailbreakBench detection latency from 2.58 s to 1.29 s with a staged cascade. Recall rose from 93% to 95% and precision fell from 82% to 74%. [Benchmark and tradeoffs](https://github.com/RohanChavan0701/adaptive-safety#results)
+- **[RSI Agent Memory](https://github.com/RohanChavan0701/RSI_HGI_Memory)** · I built a 36-task incident eval for Git-backed memory in frozen models. Hand-seeded records shifted which failures the agent diagnosed correctly. [Results by incident type](https://github.com/RohanChavan0701/RSI_HGI_Memory/blob/main/docs/results.md)
+- **[QualityBench](https://github.com/RohanChavan0701/qualitybench)** · I benchmarked Mistral-7B across inference backends. On one A100 at batch size one, vLLM FP16 reached 73.9 tokens/s and Hugging Face FP16 reached 36.9. [Setup and results](https://github.com/RohanChavan0701/qualitybench#results)
 
-An inference-time cascade that spends more compute on uncertain jailbreak classifications. On the committed JailbreakBench run, it reached 0.95 recall at 1,291 ms average latency and 31.1 proxy cost units, versus 0.93 recall, 2,583 ms, and 49.0 units for the always-all baseline; precision decreased from 0.82 to 0.74.
+## Team work
 
-`LLM safety` · `adaptive inference` · `evaluation` · `PyTorch`
+I contributed secure-code evaluation and synthetic training data to Virginia Tech's Team HokieTokie. We placed **first in Tournament 2** and **second in Tournament 1** of the Amazon Nova AI Challenge. [Team](https://www.amazon.science/nova-ai-challenge/teams/hokietokie) · [Team report](https://cdn.amazon.science/e9/c3/763fbbb047a0b2b16e31d6d24b12/hokie-tokie-data-is-all-you-need-almost.pdf)
 
-### [Chiron](https://github.com/RohanChavan0701/Chiron)
-
-A runtime teacher-repair loop that detects student-model drift, verifies corrections, and adds them to prompt memory without changing model weights. The coding demo improved same-distribution accuracy from 0.273 to 0.455, while held-out experiments document that the gain often disappears.
-
-`teacher–student systems` · `drift detection` · `prompt memory` · `evaluation`
-
-### [Housing Policy Advisor](https://github.com/RohanChavan0701/housing-policy-advisor)
-
-Builds a local housing profile from public data, retrieves policy evidence when a Chroma collection is available, and generates validated structured recommendations. The pipeline degrades explicitly to generation without retrieval when evidence infrastructure is unavailable.
-
-`Census + HUD + BLS · ChromaDB · Structured Generation · Grounding Validation`
-
-### [CareRoute Flight Agent](https://github.com/RohanChavan0701/careroute-flight-agent)
-
-A standalone FastAPI component for provider-backed flight lookup and status checks, with an A2A JSON-RPC interface, voice integration, and Docker packaging. It was built as the flight-service contribution to the broader CareRoute multi-agent prototype.
-
-`FastAPI` · `A2A JSON-RPC` · `external APIs` · `Docker`
+I also built the [CareRoute Flight Agent](https://github.com/RohanChavan0701/careroute-flight-agent), a FastAPI service for the team prototype that earned an [Honorable Mention at Virginia Tech CodeFest](https://news.vt.edu/articles/2025/11/pamplin-2025-code-fest.html).
